@@ -1,0 +1,248 @@
+body{
+    overflow-x: hidden;
+}
+
+.home{
+    border-bottom: 2px red solid;
+}
+.home:hover{
+    border-bottom: 2px red solid;
+}
+.about:hover{
+    border-bottom: 2px red solid;
+}
+
+.menu:hover{
+    border-bottom: 2px red solid;
+}
+.events:hover{
+    border-bottom: 2px red solid;
+}
+
+.chefs:hover{
+    border-bottom: 2px red solid;
+}
+
+.galery:hover{
+    border-bottom: 2px red solid;
+}
+
+.contact:hover{
+    border-bottom: 2px red solid;
+}
+
+.dropdown:hover{
+    border-bottom: 2px red solid;
+}
+
+
+@keyframes flotter {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .premierimg {
+    animation: flotter 4s ease-in-out infinite;
+  }
+
+
+
+  .rectangle{
+    width: 636px;
+    height: 100px;
+    border: 4px rgb(67, 62, 62) solid;
+  }
+
+
+  .logo{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.re{
+    margin: 10px auto;
+}
+
+
+/* 
+*{
+    outline: 1px red solid;
+}   */
+
+
+.llogo{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(23, 179, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+.premiereimage{
+    height: 60vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(yumiimg/stats-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+}
+.uul li:hover{
+
+    border-bottom: 2px red solid;
+    cursor: pointer;
+
+}
+
+.card{
+    border: none;
+}
+
+
+.trai{
+    width: 2px;
+    height: 120px;
+    background-color: red;
+}
+
+.d-block{
+    height: 400px !important;
+    /* width: 460px !important;
+    gap: none;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(yumiimg/events-1.jpg); */
+}
+
+
+
+.book1{
+    width: 380px;
+    height: 410px;
+    background-image: url(yumiimg/reservation.jpg);
+    background-size: cover;
+}
+
+.galery img{
+    height: 10rem;
+}
+
+.caré{
+    border: 9px red solid;
+}
+
+
+.conticone{
+    width: 500px;
+    height: 80px;
+    background-color: rgb(232, 239, 239);
+}
+
+
+.icone{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+}
+
+
+
+.plogo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px rgb(139, 135, 135) solid;
+
+}
+
+
+
+.footerr{
+    height: 40vh;
+    background-color: rgb(47, 45, 45);
+}
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 768px){
+
+
+    
+    .rectangle{
+        width: 327px;
+        height: 100px;
+        border: 4px rgb(131, 21, 21) solid;
+        margin: 10px auto;
+      }
+
+
+      .galery img{
+        display: none;
+
+      }
+    
+
+
+      .conticone{
+        width: 335px;
+        height: 80px;
+        background-color: rgb(232, 239, 239);
+        margin-top: 30px;
+    }
+
+    .foter{
+        flex-direction: column;
+    }
+
+    .abs img{
+        margin-left: 30px;
+    }
+
+
+    
+
+
+
+  }
