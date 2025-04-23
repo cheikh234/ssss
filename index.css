@@ -196,10 +196,10 @@ ul{
     background-color: rgb(47, 45, 45);
 }
 
-
+/* 
 *{
     border: 2px red solid;
-}
+} */
 
 
 
@@ -213,6 +213,8 @@ ul{
 
   @media (max-width: 768px){
 
+
+   
 
     
     .rectangle{
@@ -240,6 +242,9 @@ ul{
     .foter{
         flex-direction: column;
     }
+
+
+
 
     /* .abs img{
         margin-left: 30px;
