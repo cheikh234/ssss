@@ -197,6 +197,11 @@ ul{
 }
 
 
+*{
+    border: 2px red solid;
+}
+
+
 
 
 
@@ -236,9 +241,9 @@ ul{
         flex-direction: column;
     }
 
-    .abs img{
+    /* .abs img{
         margin-left: 30px;
-    }
+    } */
 
 
     
